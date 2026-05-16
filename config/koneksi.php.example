@@ -1,0 +1,10 @@
+<?php
+
+$host = "localhost";
+$user = "username_anda";
+$pass = "password_anda";
+$db = "nama_database";
+
+$conn = mysqli_connect($host, $user, $pass, $db);
+
+?>

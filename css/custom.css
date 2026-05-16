@@ -1,0 +1,167 @@
+body {
+    background-color: #f0fdf4;
+}
+
+.sidebar {
+    background: linear-gradient(180deg, #064e3b, #065f46);
+}
+
+.sidebar .nav-link:hover {
+    transition: all 0.3s ease;
+    background-color:rgba(255,255,255,0.18);
+    border-radius: 8px;
+     border-left: 4px solid #10b981 !important;
+}
+
+.sidebar .nav-link.active .nav-link{
+    background-color:rgba(255,255,255,0.18);
+    border-radius: 8px;
+    transform: translateX(4px);
+}
+
+
+.sidebar .nav-link.active span,
+.sidebar .nav-link.active i{
+    color:#ffffff !important;
+}
+
+.topbar {
+    background-color: #ffffff;
+    border-bottom: 2px solid #10b981;
+}
+
+
+.card {
+    border: none;
+    border-radius: 12px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+   
+}
+
+
+/* Header card */
+.card-header {
+    background-color: #ecfdf5;
+    color: #065f46;
+    font-weight: 600;
+    border-bottom: none;
+}
+
+.nav-link span{
+    font-weight: lighter;
+}
+
+/* Border kiri card statistik */
+.border-left-primary,
+.border-left-success,
+.border-left-warning,
+.border-left-danger {
+    border-left: 4px solid #10b981 !important;
+}
+
+.text-xs {
+    color: #6b7280 !important;
+}
+
+.h5 {
+    color: #065f46 !important;
+}
+
+
+.btn-primary {
+    background-color: #10b981;
+    border: none;
+    border-radius: 8px;
+}
+
+.btn-primary:hover {
+    background-color: #059669;
+}
+
+
+.table {
+    border-radius: 12px;
+    overflow: hidden;
+    background: #ffffff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.table thead {
+    background-color: #ecfdf5;
+}
+
+.table thead th {
+    color: #065f46;
+    font-weight: 600;
+    border: none;
+}
+
+
+
+.table tbody tr:hover {
+    background-color: #f0fdf4;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f9fafb;
+}
+
+.table td {
+    border-top: 1px solid #e5e7eb;
+    color: #374151;
+}
+
+
+.badge-success {
+    background-color: #10b981;
+    color: white;
+}
+
+.badge-warning {
+    background-color: #f59e0b;
+    color: white;
+}
+
+.badge-danger {
+    background-color: #ef4444;
+    color: white;
+}
+
+
+.dataTables_wrapper .dataTables_filter input {
+    border-radius: 8px;
+    border: 1px solid #d1d5db;
+}
+
+.dataTables_wrapper .dataTables_length select {
+    border-radius: 8px;
+}
+
+.btn-action-delete {
+    background: none !important;
+    border: none !important;
+    color: #ef4444 !important; /* merah elegan */
+    font-weight: 500;
+    cursor: pointer;
+    padding: 0 !important;
+    box-shadow: none !important;
+}
+
+/* hover effect */
+.btn-action-delete:hover {
+    color: #b91c1c !important;
+    text-decoration: underline;
+}
+
+.btn-action-edit {
+    color: #10b981 !important;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.btn-action-edit:hover {
+    color: #059669 !important;
+    text-decoration: underline;
+}
+
